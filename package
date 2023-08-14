@@ -1,7 +1,7 @@
 {
-    'author': u'',
-    'description': u'',
-    'download_url': '',
+    'author': 'Curtis Bowden <curtis.bowden@gmail.com>',
+    'description': 'Checkmk extension for Reliable Controls MACH-Pro Controller',
+    'download_url': 'https://github.com/curtisbowden/checkmk_rc-mach-pro',
     'files': {
         'agent_based': [],
         'agents': [],
@@ -13,8 +13,8 @@
         'pnp-templates': [],
         'web': []
     },
-    'name': '',
-    'title': u'',
+    'name': 'rc-mach-pro',
+    'title': 'Reliable Controls MACH-Pro Controller',
     'version': '0.0.1',
     'version.min_required': '2.0.0',
     'version.packaged': '2.2.0',

@@ -1,12 +1,12 @@
-# Checkmk extension for ...
+# Checkmk extension for Reliable Controls RC MACH-Pro
 
-![build](https://github.com/jiuka/checkmk_template/workflows/build/badge.svg)
-![flake8](https://github.com/jiuka/checkmk_template/workflows/Lint/badge.svg)
-![pytest](https://github.com/jiuka/checkmk_template/workflows/pytest/badge.svg)
+![build](https://github.com/curtisbowden/checkmk_rc-mach-pro/workflows/build/badge.svg)
+![flake8](https://github.com/curtisbowden/checkmk_rc-mach-pro/workflows/Lint/badge.svg)
+![pytest](https://github.com/curtisbowden/checkmk_rc-mach-pro/workflows/pytest/badge.svg)
 
 ## Description
 
-This is a template to develop Checkmk Extensions
+CheckMK check for Reliable Controls Controller based on RC-MACH-PRO-MIB
 
 ## Development
 
