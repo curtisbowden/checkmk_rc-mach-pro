@@ -29,7 +29,6 @@ from .agent_based_api.v1 import (
     Service,
     Result,
     State,
-    Metric,
 )
 
 
@@ -49,7 +48,7 @@ def parse_rc_mach_pro_var_table(string_table):
 
         parsed[name]['var_val_int'] = var_val_int
         parsed[name]['var_type'] = var_type
-        parsed[name]['var_val_float'] = ':'.join('{:02x}'.format(ord(x), 'x') for x in var_val_float)
+        parsed[name]['var_val_float'] = var_val_float
         parsed[name]['var_obj_name'] = var_obj_name
 
     return parsed
